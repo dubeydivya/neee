@@ -1,0 +1,61 @@
+.aws {
+    position: static;
+    /* height: 100vh; */
+    /* text-align: center; */
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        /* bottom, image */
+        url(https://img.freepik.com/free-vector/cloud-network-system-background-vector-social-media-banner_53876-111844.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1709942400&semt=ais);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aws-row{
+    padding-top: 9rem;
+}
+.aws-img1{
+    opacity: 0.5;
+    border-radius: 50px;
+}
+.title {
+    letter-spacing: 2px;
+    /* font-family: "Poppins", sans-serif; */
+    /* font-weight: 200;
+    font-style: normal; */
+}
+.awsc-heading{
+    font-size: 1.5rem;
+}
+.aws-row{
+    padding-top: 8em;
+}
+.aws-img1{
+    opacity: 0.5;
+    border-radius: 50px;
+}
+.title {
+    letter-spacing: 2px;
+    /* font-size: large; */
+    /* font-weight: 800;
+    font-style: normal; */
+}
+/* .cards{
+    padding: 68px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards1{
+    padding: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c1{
+    margin: 30px;
+    height: 35rem;
+    display: flex;
+}
+ */

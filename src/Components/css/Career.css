@@ -1,0 +1,59 @@
+.title {
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: large;
+    font-size: 1.3rem;
+
+}
+
+.title-serv {
+    padding-top: 5rem;
+    letter-spacing: 5.5px;
+    font-weight: 450;
+    font-style: normal;
+}
+
+.titl-pc {
+    font-size: 20px;
+}
+
+.button {
+    width: 15rem;
+    transition: 0.3s, color;
+    border-radius: 50px;
+    color: black;
+    background-color: white;
+    border-color: black ;
+
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s, color;
+    transform: scale(1.1);
+    border-color: white;
+}
+
+.job-card {
+    position: static;
+    /* height: 80vh; */
+    /* text-align: center; */
+    padding-top: 9rem;
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(8, 0, 0, 0.7),
+            rgba(18, 18, 18, 0.7)),
+        url('/src/Assets/building.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.job{
+    background-color: black;
+}
+/* .com-row{
+    scroll-snap-align: start;
+} */

@@ -1,0 +1,128 @@
+/* .card-home {
+    position: relative;
+    top: 15%;
+    left: 15%;
+} */
+
+.title-heading {
+    letter-spacing: 5px;
+    font-weight: 200;
+    font-style: normal;
+    /* font-size: large;
+    font-size: 1.3rem; */
+}
+.section{
+    scroll-snap-align: start;
+
+}
+
+.title-gen {
+    letter-spacing: 7.5px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+.dark {
+    border-radius: 50px;
+}
+
+.z {
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+
+}
+
+.card-dig {
+    position: relative;
+    top: 30%;
+}
+
+.digital-row {
+    /* padding-top: 15%; */
+    /* padding-bottom: 5%; */
+    position: static;
+    height: 110vh;
+
+    /* text-align: center; */
+
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(31, 29, 29, 0.7),
+            rgba(33, 32, 32, 0.7)),
+        /* bottom, image */
+        url(https://files.123freevectors.com/wp-content/solidbackground/very-dark-purple-free-solidcolor-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.explore {
+    font-size: x-large;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding: 1rem;
+}
+
+.gen-z {
+    position: static;
+    padding-top: 9rem;
+    height: 100vh;
+    /* text-align: center; */
+
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(25, 23, 23, 0.7),
+            rgba(23, 22, 22, 0.7)),
+        /* bottom, image */
+        url("https://source.unsplash.com/random/?Tech/");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.digital-services {
+    position: static;
+    /* height: 130vh; */
+    /* text-align: center; */
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(40, 39, 39, 0.7),
+            rgba(41, 40, 40, 0.7)),
+        /* bottom, image */
+        url(https://files.123freevectors.com/wp-content/solidbackground/very-dark-purple-free-solidcolor-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    /* width of the entire scrollbar */
+}
+
+
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid rgb(84, 75, 59);
+    /* creates padding around scroll thumb */
+}
+
+.dark:hover {
+    background-color: white;
+    color: black;
+}
+
+.fa-arrow-right-long {
+    font-size: 1.5rem;
+}
+
+.home-btns {
+    width: 18rem;
+}
+.card-d{
+    padding-top: 7rem;
+}
