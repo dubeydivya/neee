@@ -1,5 +1,5 @@
 import React from 'react'
-import './JobFs.css'
+//import './JobFs.css'
 
 function DMJ() {
     return <>

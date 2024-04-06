@@ -6,7 +6,8 @@ function JobContext({ children }) {
     let [data, setData] = useState([
         {
             name: "Full Stack Developer",
-            description: "Design, develop, and maintain both front-end and back-end components of web applications. Collaborate with cross-functional teams to understand project..."
+            description: "Design, develop, and maintain both front-end and back-end components of web applications. Collaborate with cross-functional teams to understand project...",
+            path:"/jobs/cj"
         },
         {
             name: "Data Analyst",

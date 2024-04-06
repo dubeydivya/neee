@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react'
 import './css/Internship.css'
-import { InternData } from '../Context/IntershipData'
+import { InterData } from '../Context/IntershipData'
 import ICard from './Cards/ICard'
 import internImg from '../Assets/internship.jpg'
 
@@ -9,7 +9,7 @@ function Intership() {
         document.title = "HeyRam Infrastructure Internship Program"
         window.scrollTo(0, 0)
     }, [])
-    let Data = useContext(InternData)
+    let Data = useContext(InterData)
     return <>
         <div className='container-fluid text-white internship-page'>
             <div className='backg-row row'>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export const InternData = React.createContext()
+export const InterData = React.createContext()
 function IntershipData({children}) {
     let [data,setData] = useState(
         [
@@ -39,7 +39,7 @@ function IntershipData({children}) {
         ]
     )
     return <>
-        <InternData.Provider value={{data,setData}}>{children}</InternData.Provider>
+        <InterData.Provider value={{data,setData}}>{children}</InterData.Provider>
     </>
 }
 

@@ -1,8 +1,8 @@
 import React from 'react'
-import './JobFs.css'
+// import './Jobda.das'
 
 
-function FSD() {
+function DA() {
     return <>
         <div className='container-fluid '>
             <div className='row'>
@@ -11,7 +11,7 @@ function FSD() {
                         HeyRam Infrastructure | Full Time
                     </div>
                     <div className='h1 pt-3 pb-3'>
-                        Full Stack Developer
+                       AI/ML Engineer
                     </div>
                     <div className='d-flex justify-content-center buttons'>
                         <div style={{ fontWeight: "350" }} >
@@ -32,33 +32,25 @@ function FSD() {
                     <div className='h1 '>
                         Job Description
                     </div> <br />
-                    <p className='pe-5 fs-5'><b className='fs-5'>Role Description:</b> We seek a talented and enthusiastic MERN Stack Developer to join our team. This
-                        is a full-time on-site role where you will be responsible for developing, implementing, and
-                        maintaining innovative software solutions for our clients. You will work closely with our
-                        development team to deliver high-quality code and ensure client satisfaction.  </p>
+                    <p className='pe-5 da-5'><b className='da-5'>Role Description:</b> We are seeking a talented and motivated AI/ML Engineer to join our team. The role involves
+developing, implementing, and optimizing AI/ML models and algorithms for various projects.
+Responsibilities include collecting and preprocessing data, designing and training models, and
+evaluating model performance. The AI/ML Engineer will work closely with the software
+development team and report to the Chief Technology Officer.
+ </p>
                     <div className='roles-respond'>
                         <div className='h4'>
                             Responsibilities:
                         </div>
                         <ul>
-                            <li className='fs-5'>
-                                Develop and maintain web applications using the MERN stack (MongoDB, Express.js, React,
-                                Node.js)
+                            <li className='da-5'>
+                            Experience with natural language processing (NLP) and computer vision
                             </li>
-                            <li className='fs-5'>
-                                Collaborate with the design team to implement user-friendly interfaces
+                            <li className='da-5'>
+                            Knowledge of cloud computing platforms such as AWS, Azure, or Google Cloud
                             </li>
-                            <li className='fs-5'>
-                                Write clean, maintainable, and efficient code
-                            </li>
-                            <li className='fs-5'>
-                                Troubleshoot and debug applications
-                            </li>
-                            <li className='fs-5'>
-                                Perform code reviews and provide feedback to other developers
-                            </li>
-                            <li className='fs-5'>
-                                Stay up-to-date with emerging technologies and best practices
+                            <li className='da-5'>
+                            Familiarity with version control systems such as Git
                             </li>
                         </ul>
                     </div>
@@ -67,33 +59,43 @@ function FSD() {
                             Qualifications:
                         </div>
                         <ul>
-                            <li className='fs-5'>
-                                Bachelor's degree in Computer Science or a related field
+                            <li className='da-5'>
+                            Bachelor's or Master's degree in Computer Science, Data Science, or related field
                             </li>
-                            <li className='fs-5'>
-                                Proven experience as a MERN Stack Developer or similar role minimum experience of 2 years
+                            <li className='da-5'>
+                            Solid understanding of machine learning algorithms and concepts
                             </li>
-                            <li className='fs-5'>
-                                Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object
-                                model
+                            <li className='da-5'>
+                            Proficiency in programming languages such as Python, R, or Java
+
                             </li>
-                            <li className='fs-5'>
-                                Experience with React.js and Node.js
+                            <li className='da-5'>
+                            Experience with machine learning frameworks such as TensorFlow, PyTorch, or scikit-learn
                             </li>
-                            <li className='fs-5'>
-                                Familiarity with MongoDB and database design principles
+                            <li className='da-5'>
+                            Familiarity with data processing tools and libraries such as Pandas, NumPy, or Spark
                             </li>
-                            <li className='fs-5'>
-                                Excellent problem-solving skills
+                            <li className='da-5'>
+                            Strong analytical and problem-solving skills
                             </li>
-                            <li className='fs-5'>
-                                Ability to work independently and in a team environment
-                            </li>
-                            <li className='fs-5'>
-                                Strong communication skills
+                            <li className='da-5'>
+                            Excellent written and verbal communication skills
                             </li>
                         </ul>
+
                     </div>
+                    <div className="roles-respond">
+              <div className="h4">Salary</div>
+              <ul>
+                <li className="da-5">Salary will be 20k to 40k</li>
+                <li className="da-5">
+                  If you are selected, you will have a 1-month training period.
+                  In that training period, salary will not be provided; after
+                  that, you will be selected based on your performance. After
+                  that, six months contract.
+                </li>
+              </ul>
+            </div>
                     <div className='apply-button p-3'>
                         <div className='btn text-center p-2 btn-primary'>
                             APPLY NOW
@@ -104,13 +106,13 @@ function FSD() {
                     <div className='h1 '>
                         Job Information
                     </div>
-                    <div className='fs-5 pt-1 pb-1'>
+                    <div className='da-5 pt-1 pb-1'>
                         Country
                     </div>
                     <div className='h5'>
                         India
                     </div> <br />
-                    <div className='fs-5 pt-1 pb-1'>
+                    <div className='da-5 pt-1 pb-1'>
                         Industry
                     </div>
                     <div className='h5'>
@@ -122,4 +124,4 @@ function FSD() {
     </>
 }
 
-export default FSD
+export default DA
